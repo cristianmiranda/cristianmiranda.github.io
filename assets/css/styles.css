@@ -1,4 +1,4 @@
-/*   
+/*
  * Template Name: Developer - Responsive Website Template for Developers
  * Version: 1.0
  * Author: 3rd Wave Media
@@ -154,6 +154,14 @@ iframe {
   color: #fff;
   text-align: center;
 }
+.header .profile-content .language-en a {
+  background: #2B7FD9;
+}
+
+.header .profile-content .language-es a {
+  background: #FF5757;
+}
+
 .header .profile-content .social a:hover {
   background: #778492;
 }

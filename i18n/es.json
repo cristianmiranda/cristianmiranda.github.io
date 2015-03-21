@@ -1,0 +1,72 @@
+{
+        "contact-me" : "Contactame",
+        "java-developer" : "Desarrollador Java",
+
+        "about-me" : "Acerca de mi",
+        "about-me-1" : "Soy un desarrollador de aplicaciones web enfocado en brindar un gran servicio.",
+        "about-me-2" : "Mi objetivo es diseñar sistemas eficientes utilizando motodologías de desarrollo ágiles. Desarrollar escalables y potentes aplicaciones Java utilizando la última tecnología disponible en el mercado. ",
+        "about-me-3" : "Ultimamente me encuentro trabajando con Spring, Google App Engine, GWT y JBoss Errai.",
+
+        "latest-projects" : "Proyectos recientes",
+        "latest-projects-1" : "Intuitiva aplicacion que actúa como plataforma de seguridad y administracion de negocios, instituciones educativas y cualquier otra organización que utilice Google Apps",
+        "latest-projects-2" : "Flashpanel es utilizada por profesionales del rubro IT en más de 40.000 organizaciones alrededor del mundo para administrar sus dominios. Flashpanel ayuda a los usuarios a auditar y detectar riesgos potenciales y establecer reglas de automatización para hacer cumplir las políticas de organización de manera permanente.",
+        "latest-projects-3" : "Magick - Trading automatizado, simple y elegante",
+        "latest-projects-4" : "Trading automatizado. Los usuarios pueden diseñar y desplegar sus estrategias de FX trading en minutos utilizando generadores de reglas intuitivas sin necesidad de saber como programarlas.",
+
+        "view-more" : "VER MÁS",
+
+        "work-experience" : "Experiencia de trabajo",
+        "work-experience-a" : "Desarrollador GWT/Errai",
+        "work-experience-1" : "Desarrollando aplicaciones que permiten construir e implementar facilmente estrategias de trading en minutos. Este software monitorea complejos datos de mercado y automáticamente ejecuta la estrategia, siempre teniendo en cuenta las opciones personales de riesgo predefinidas.",
+        "work-experience-2" : "Trabajo remoto con reuniones diarias con el equipo ubicado en Copenhague, Dinamarca.",
+        "work-experience-3" : "Tecnologías: JBoss AS 7.1.1, GWT 2.5.1, JBoss Errai 3.0, JBoss Drools, CDI.",
+
+        "work-experience-b" : "Desarrollador GWT",
+        "work-experience-4" : "Aplicación para la administración de \"Google Apps for Business\" para la empresa CloudSherpas (uno de los partners más importantes de Google)",
+        "work-experience-5" : "Objetivo: Desarrollar una aplicación web que permita a los administradores de Google Apps administrar sus grupos, usuarios y más.",
+        "work-experience-6" : "Trabajo remoto con reuniones diarias con el equipo ubicado en Atlanta y Nueva York, Estados Unidos.",
+        "work-experience-7" : "Tecnologías: GAE 1.6.2, GWT 2.4, Objectify 3, Guice, Gin, UiBinder, Request Factory, Highcharts",
+
+        "work-experience-c" : "Desarrollador Java/GWT",
+        "work-experience-8" : "Aplicación empresarial interna llamada Subnet Manager (SNM), la cual provee a usuarios finales de conectividad lógica con la red global de comunicaciones.",
+        "work-experience-9" : "Tecnologías: GWT 2.4, RaphaelGWT, Highcharts",
+
+        "work-experience-d" : "Desarrollador Java",
+        "present" : "Present",
+
+        "my-github" : "Mi actividad en GitHub",
+
+        "odesk-profile" : "Perfil en oDesk",
+
+        "skills" : "Habilidades",
+        "skills-1" : "Mis principales habilidades.",
+        "skills-2" : "Más de 8 años de experiencia",
+        "skills-3" : "Más de 5 años de experiencia",
+        "skills-4" : "Más de 3 años de experiencia",
+
+        "testimonials" : "Testimonios",
+        "testimonials-1" : "Cristian en una persona muy apasionada. Siempre trata de que su código se vea bien y que hasta el más minimo detalle funcione perfectamente.",
+
+        "education" : "Educación",
+        "education-1" : "Técnico en Computación",
+        "education-2" : "Ingeniero en Informática",
+
+        "languages" : "Lenguajes",
+        "languages-1" : "Español",
+        "languages-2" : "Nativo",
+        "languages-3" : "Inglés",
+        "languages-4" : "Oral y Escrito fluidos",
+
+        "open-source" : "Contribuciones Open Source",
+        "open-source-1" : "Agregué la funcionalidad de Drag and Drop a la librería. RaphaelGWT permite usar Raphaël en aplicaciones GWT. Raphaël es una librería JavaScript liviana para crear gráficos vectorizados que utilizan SVG en navegadores que lo soportan, y Microsoft VML en Internet Explorer.",
+
+        "coding-music" : "Que escucho mientras programo",
+
+        "awards" : "Premios",
+        "awards-1" : "1º Puesto en la competencia \"Copa Turing 2009\"",
+
+        "find-out-more" : "Descubrí más",
+        "more-on-coderwall" : "Más en Coderwall",
+        "more-on-linkedin" : "Más en Linkedin",
+        "more-info" : "Más info"
+}

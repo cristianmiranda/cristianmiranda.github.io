@@ -1,0 +1,72 @@
+{
+        "contact-me" : "Contact me",
+        "java-developer" : "Java Developer",
+
+        "about-me" : "About me",
+        "about-me-1" : "I'm a focused skilled web applications developer.",
+        "about-me-2" : "My objective is design efficient systems with agile development methodologies. Develop powerful and scalable java applications using the latest technologies available on market.",
+        "about-me-3" : "I've been working with Spring framework, Google App Engine and now with GWT and JBoss Errai.",
+
+        "latest-projects" : "Latest Projects",
+        "latest-projects-1" : "A comprehensive security and management platform built for businesses, educational institutions, & organizations that use Google Apps.",
+        "latest-projects-2" : "FlashPanel is used by IT professionals in over 40,000 organizations around the world to manage their Google Apps domains. FlashPanel empowers IT users to audit and uncover potential risks, take action to bring company assets and users back into compliance, and set automation rules to enforce organizational policies on an ongoing basis.",
+        "latest-projects-3" : "Magick - Beautifully Simple Trade Automation",
+        "latest-projects-4" : "Simple Trade Automation. Users can design and deploy their FX trading strategies in minutes using intuitive rules generators without the need of programming them.",
+
+        "view-more" : "VIEW MORE",
+
+        "work-experience" : "Work Experience",
+        "work-experience-a" : "GWT/Errai Developer",
+        "work-experience-1" : "Building an application that allows you to easily construct and implement multiple trading strategies. This software monitors complex market data and automatically executes your strategy while continually taking your personal risk management settings into consideration.",
+        "work-experience-2" : "Remote work, having a daily meeting with the Copenhagen team.",
+        "work-experience-3" : "Technologies: JBoss AS 7.1.1, GWT 2.5.1, JBoss Errai 3.0, JBoss Drools, CDI.",
+
+        "work-experience-b" : "GWT Developer",
+        "work-experience-4" : "Application for \"Google Apps for Business\" management for CloudSherpas corporation (one of the most important Google's partner)",
+        "work-experience-5" : "Objective: Develop an application that let Google Apps administrators manage their groups, users and more.",
+        "work-experience-6" : "Remote work, having a daily meeting with the Atlanta and NYC team.",
+        "work-experience-7" : "Technologies: GAE 1.6.2, GWT 2.4, Objectify 3, Guice, Gin, UiBinder, Request Factory, Highcharts",
+
+        "work-experience-c" : "Java/GWT Developer",
+        "work-experience-8" : "Internal enterprise application called Subnet Manager (SNM) that provides end users of logical connectivity with the global network.",
+        "work-experience-9" : "Technologies: GWT 2.4, RaphaelGWT, Highcharts",
+
+        "work-experience-d" : "Java Developer",
+        "present" : "Present",
+
+        "my-github" : "My GitHub",
+
+        "odesk-profile" : "oDesk profile",
+
+        "skills" : "Skills",
+        "skills-1" : "My primary skillset.",
+        "skills-2" : "Over 8 years of experience",
+        "skills-3" : "Over 5 years of experience",
+        "skills-4" : "Over 3 years of experience",
+
+        "testimonials" : "Testimonials",
+        "testimonials-1" : "Cristian is a very passionate guy, who's always trying to make the code look beautiful and every little thing work perfectly.",
+
+        "education" : "Education",
+        "education-1" : "Computers Technician",
+        "education-2" : "Computer Engineering",
+
+        "languages" : "Languages",
+        "languages-1" : "Spanish",
+        "languages-2" : "Native Speaker",
+        "languages-3" : "English",
+        "languages-4" : "Fluent Oral & Writing",
+
+        "open-source" : "Open Source Contributions",
+        "open-source-1" : "I've added the Drag and Drop feature to the library. RaphaelGWT is a library that allows you to use Raphaël in your GWT application. Raphaël is a lightweight JavaScript library for cross-platform vector graphics that uses SVG in browsers that support it, and Microsoft VML on Internet Explorer.",
+
+        "coding-music" : "Favourite coding music",
+
+        "awards" : "Awards",
+        "awards-1" : "1st Place in the \"Copa Turing 2009\" competition",
+
+        "find-out-more" : "Find out more",
+        "more-on-coderwall" : "More on Coderwall",
+        "more-on-linkedin" : "More on Linkedin",
+        "more-info" : "More info"
+}

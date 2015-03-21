@@ -4,30 +4,58 @@
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
     <title>Cristian Miranda | Profile</title>
+
     <!-- Meta -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--
+    Always force latest IE rendering engine (even in intranet) & Chrome Frame
+    Remove this if you use the .htaccess
+    -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="author" content="Santhosh Thottingal">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Cristian Miranda | Profile">
-    <meta name="author" content="3rd Wave Media">
+    <meta name="author" content="Cristian Miranda">
     <link rel="shortcut icon" href="favicon.ico">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+
     <!-- github acitivity css -->
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
     <link rel="stylesheet" href="http://caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.css">
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="http://caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.js"></script>
 
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+
+    <!-- jQuery & bootstrap -->
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
+
+    <!-- i18n Library -->
+    <script src="assets/plugins/i18n/libs/CLDRPluralRuleParser/src/CLDRPluralRuleParser.js"></script>
+    <script src="assets/plugins/i18n/libs/jquery.i18n.js"></script>
+    <script src="assets/plugins/i18n/libs/jquery.i18n.messagestore.js"></script>
+    <script src="assets/plugins/i18n/libs/jquery.i18n.fallbacks.js"></script>
+    <script src="assets/plugins/i18n/libs/jquery.i18n.parser.js"></script>
+    <script src="assets/plugins/i18n/libs/jquery.i18n.emitter.js"></script>
+    <script src="assets/plugins/i18n/libs/jquery.i18n.language.js"></script>
+
+    <!-- i18n Init script -->
+    <script src="assets/plugins/i18n/i18n.js"></script>
+
+    <!-- Custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
 
 </head>
 
@@ -35,18 +63,22 @@
     <!-- ******HEADER****** -->
     <header class="header">
         <div class="container">
-            <img class="profile-image img-responsive pull-left" src="assets/images/profile_small.png" alt="James Lee" />
+            <img class="profile-image img-responsive pull-left" src="assets/images/profile_small.png"/>
             <div class="profile-content pull-left">
                 <h1 class="name">Cristian Miranda</h1>
-                <h2 class="desc">Java Developer</h2>
-                <ul class="social list-inline">
+                <h2 class="desc i18n" data-i18n="java-developer"></h2>
+                <ul class="list-inline social">
                     <li><a href="https://twitter.com/crist_miranda"><i class="fa fa-twitter"></i></a></li>
                     <li><a href="https://www.google.com/+CristianMirandaNahuel"><i class="fa fa-google-plus"></i></a></li>
                     <li><a href="http://ar.linkedin.com/pub/cristian-miranda/22/b5/4a8/"><i class="fa fa-linkedin"></i></a></li>
                     <li class="last-item"><a href="https://github.com/cristianmiranda"><i class="fa fa-github-alt"></i></a></li>
+                    <li id="lang" class="language-es"><a href="#"><i class="fa fa-language"></i></a></li>
                 </ul>
             </div><!--//profile-->
-            <a class="btn btn-cta-primary pull-right" href="mailto:crism60@gmail.com" target="_blank"><i class="fa fa-paper-plane"></i> Contact Me</a>
+            <a class="btn btn-cta-primary pull-right" href="mailto:crism60@gmail.com" target="_blank">
+              <i class="fa fa-paper-plane"></i>
+              <span class="i18n" data-i18n="contact-me"></span>
+              </a>
         </div><!--//container-->
     </header><!--//header-->
 
@@ -55,25 +87,23 @@
             <div class="primary col-md-8 col-sm-12 col-xs-12">
                 <section class="about section">
                     <div class="section-inner">
-                        <h2 class="heading">About Me</h2>
+                        <h2 class="heading i18n" data-i18n="about-me"></h2>
                         <div class="content">
-                            <p>I'm a focused skilled web applications developer.</p>
-                            <p>My objective is design efficient systems with agile development methodologies.
-                              Develop powerful and scalable java applications using the latest technologies available on market.</p>
-                            <p>I've been working with Spring framework, Google App Engine and now with GWT and Errai.</p>
-
+                            <p class="i18n" data-i18n="about-me-1"></p>
+                            <p class="i18n" data-i18n="about-me-2"></p>
+                            <p class="i18n" data-i18n="about-me-3"></p>
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </section><!--//section-->
 
                <section class="latest section">
                     <div class="section-inner">
-                        <h2 class="heading">Latest Projects</h2>
+                        <h2 class="heading i18n" data-i18n="latest-projects"></h2>
                         <div class="content">
 
                             <div class="item featured text-center">
                                 <h3 class="title"><a href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank">FlashPanel</a></h3>
-                                <p class="summary">A comprehensive security and management platform built for businesses, educational institutions, & organizations that use Google Apps.</p>
+                                <p class="summary i18n" data-i18n="latest-projects-1"></p>
                                 <div class="featured-image">
                                     <a href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank">
                                     <img class="img-responsive project-image" src="assets/images/projects/flashpanel.png" alt="FlashPanel" />
@@ -84,9 +114,10 @@
                                     </div>
 
                                 <div class="desc text-left">
-                                    <p>FlashPanel is used by IT professionals in over 40,000 organizations around the world to manage their Google Apps domains. FlashPanel empowers IT users to audit and uncover potential risks, take action to bring company assets and users back into compliance, and set automation rules to enforce organizational policies on an ongoing basis.</p>
+                                  <p class="i18n" data-i18n="latest-projects-2"></p>
                                 </div><!--//desc-->
-                                <a class="btn btn-cta-secondary" href="http://www.flashpanel.com" target="_blank"><i class="fa fa-eye"></i> View more</a>
+                                <a class="btn btn-cta-secondary" href="http://www.flashpanel.com" target="_blank"><i class="fa fa-eye"></i>
+                                  <span class="i18n" data-i18n="view-more"></span></a>
                             </div><!--//item-->
                             <hr class="divider" />
                             <div class="item row">
@@ -94,13 +125,19 @@
                                 <img class="img-responsive project-image" src="assets/images/projects/magick.png" alt="Magick" />
                                 </a>
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title"><a href="http://magick.nu" target="_blank">Magick - Beautifully Simple Trade Automation</a></h3>
-                                    <p>Simple Trade Automation. Users can design and deploy their FX trading strategies in minutes using intuitive rules generators without the need of programming them.</p>
-                                    <p><a class="more-link" href="http://magick.nu" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                    <h3 class="title">
+                                      <a href="http://magick.nu" target="_blank" class="i18n" data-i18n="latest-projects-3"></a>
+                                    </h3>
+                                    <p class="i18n" data-i18n="latest-projects-4"></p>
+                                    <p><a class="more-link" href="http://magick.nu" target="_blank"><i class="fa fa-external-link"></i>
+                                      <span class="i18n" data-i18n="find-out-more"></span>
+                                      </a></p>
                                 </div><!--//desc-->
                             </div><!--//item-->
 
-                            <a class="btn btn-cta-secondary" href="#">More on CoderWall <i class="fa fa-chevron-right"></i></a>
+                            <a class="btn btn-cta-secondary" href="#">
+                              <span class="i18n" data-i18n="more-on-coderwall"></span>
+                              <i class="fa fa-chevron-right"></i></a>
 
                         </div><!--//content-->
                     </div><!--//section-inner-->
@@ -108,38 +145,38 @@
 
                 <section class="experience section">
                     <div class="section-inner">
-                        <h2 class="heading">Work Experience</h2>
+                        <h2 class="heading i18n" data-i18n="work-experience"></h2>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title">GWT/Errai Developer - <span class="place"><a href="http://magick.nu">Magick</a></span> <span class="year">(2013 - Present)</span></h3>
-                                <p>Building an application that allows you to easily construct and implement multiple trading strategies. This software monitors complex market data and automatically executes your strategy while continually taking your personal risk management settings into consideration.</p>
-                                <p>Remote work, having a daily meeting with the Copenhagen team.</p>
-                                <p>Technologies: JBoss AS 7.1.1, GWT 2.5.1, JBoss Errai 3.0, JBoss Drools, CDI.</p>
+                                <h3 class="title"><span class="i18n" data-i18n="work-experience-a"></span> - <span class="place"><a href="http://magick.nu">Magick</a></span> <span class="year">(2013 - <span class="i18n" data-i18n="present"></span>)</span></h3>
+                                <p class="i18n" data-i18n="work-experience-1"></p>
+                                <p class="i18n" data-i18n="work-experience-2"></p>
+                                <p class="i18n" data-i18n="work-experience-3"></p>
                             </div><!--//item-->
 
                             <div class="item">
-                                <h3 class="title">GWT Developer - <span class="place"><a href="http://www.bettercloud.com">Bettercloud</a></span> <span class="year">(2012 - 2014)</span></h3>
-                                <p>Application for "Google Apps for Business" management for CloudSherpas corporation (one of the most important Google's partner)</p>
-                                <p>Objective: Develop an application that let Google Apps administrators manage their groups, users and more.</p>
-                                <p>Remote work, having a daily meeting with the Atlanta and NYC team.</p>
-                                <p>Technologies: GAE 1.6.2, GWT 2.4, Objectify 3, Guice, Gin, UiBinder, Request Factory, Highcharts</p>
+                                <h3 class="title"><span class="i18n" data-i18n="work-experience-b"> - <span class="place"><a href="http://www.bettercloud.com">Bettercloud</a></span> <span class="year">(2012 - 2014)</span></h3>
+                                <p class="i18n" data-i18n="work-experience-4"></p>
+                                <p class="i18n" data-i18n="work-experience-5"></p>
+                                <p class="i18n" data-i18n="work-experience-6"></p>
+                                <p class="i18n" data-i18n="work-experience-7"></p>
                             </div><!--//item-->
 
                             <div class="item">
-                                <h3 class="title">Java/GWT Developer - <span class="place"><a href="http://www.verizon.com">Verizon</a></span> <span class="year">(2011 - 2012)</span></h3>
-                                <p>Internal enterprise application called Subnet Manager (SNM) that provides end users of logical connectivity with the global network.</p>
-                                <p>Technologies: GWT 2.4, RaphaelGWT, Highcharts</p>
+                                <h3 class="title"><span class="i18n" data-i18n="work-experience-c"> - <span class="place"><a href="http://www.verizon.com">Verizon</a></span> <span class="year">(2011 - 2012)</span></h3>
+                                <p class="i18n" data-i18n="work-experience-8"></p>
+                                <p class="i18n" data-i18n="work-experience-9"></p>
                             </div><!--//item-->
 
                             <div class="item">
-                                <h3 class="title">Java Developer - <span class="place"><a href="#">Freelancer</a></span> <span class="year">(2009 - 2012)</span></h3>
+                                <h3 class="title"><span class="i18n" data-i18n="work-experience-d"> - <span class="place"><a href="#">Freelancer</a></span> <span class="year">(2009 - 2012)</span></h3>
                             </div><!--//item-->
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </section><!--//section-->
                 <section class="github section">
                     <div class="section-inner">
-                        <h2 class="heading">My GitHub</h2>
+                        <h2 class="heading i18n" data-i18n="my-github"></h2>
                         <p><a href="#"><img class="img-responsive" src="assets/images/github-chart.png" alt="GitHub Contributions Chart" /></a></p>
                         <!--//Usage: http://caseyscarborough.com/projects/github-activity/ -->
                         <div id="ghfeed" class="ghfeed">
@@ -151,13 +188,13 @@
             <div class="secondary col-md-4 col-sm-12 col-xs-12">
                  <aside class="info aside section">
                     <div class="section-inner">
-                        <h2 class="heading sr-only">Basic Information</h2>
+                        <h2 class="heading sr-only"></h2>
                         <div class="content">
                             <ul class="list-unstyled">
                                 <li><i class="fa fa-map-marker"></i><span class="sr-only"></span>Buenos Aires, Argentina</li>
                                 <li><i class="fa fa-envelope-o"></i><span class="sr-only"></span><a href="#">crism60@gmail.com</a></li>
                                 <li><i class="fa fa-skype"></i><span class="sr-only"></span><a href="#">cristian.miranda60</a></li>
-                                <li><i class="fa fa-link"></i><span class="sr-only"></span><a href="http://goo.gl/v67k2C">oDesk profile</a></li>
+                                <li><i class="fa fa-link"></i><span class="sr-only"></span><a href="http://goo.gl/v67k2C" class="i18n" data-i18n="odesk-profile"></a></li>
                             </ul>
                         </div><!--//content-->
                     </div><!--//section-inner-->
@@ -165,14 +202,15 @@
 
                 <aside class="skills aside section">
                     <div class="section-inner">
-                        <h2 class="heading">Skills</h2>
+                        <h2 class="heading i18n" data-i18n="skills"></h2>
                         <div class="content">
-                            <p class="intro">My primary skillset.</p>
+                            <p class="intro i18n" data-i18n="skills-1"></p>
 
                             <div class="skillset">
 
                                 <div class="item">
-                                    <h3 class="level-title">Java<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to add more info...">This is what I do</span></h3>
+                                    <!-- title="Over 7 years of experience" (tooltip) -->
+                                    <h3 class="level-title">Java<span class="level-label i18n" data-toggle="tooltip" data-placement="left" data-animation="true" data-i18n="skills-2"></span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="100%">
                                         </div>
@@ -180,22 +218,22 @@
                                 </div><!--//item-->
 
                                 <div class="item">
-                                    <h3 class="level-title">GWT<span class="level-label">Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="96%">
-                                        </div>
-                                    </div><!--//level-bar-->
-                                </div><!--//item-->
-
-                                <div class="item">
-                                    <h3 class="level-title">Errai<span class="level-label">Pro</span></h3>
+                                    <h3 class="level-title">GWT<span class="level-label i18n" data-i18n="skills-3"></span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="80%">
                                         </div>
                                     </div><!--//level-bar-->
                                 </div><!--//item-->
 
-                                <p><a class="more-link" href="#"><i class="fa fa-external-link"></i> More on Coderwall</a></p>
+                                <div class="item">
+                                    <h3 class="level-title">Errai<span class="level-label i18n" data-i18n="skills-4"></span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="70%">
+                                        </div>
+                                    </div><!--//level-bar-->
+                                </div><!--//item-->
+
+                                <p><a class="more-link" href="#"><i class="fa fa-external-link"></i> <span class="i18n" data-i18n="more-on-coderwall"></span></a></p>
                             </div>
                         </div><!--//content-->
                     </div><!--//section-inner-->
@@ -203,16 +241,16 @@
 
                 <aside class="testimonials aside section">
                     <div class="section-inner">
-                        <h2 class="heading">Testimonials</h2>
+                        <h2 class="heading i18n" data-i18n="testimonials"></h2>
                         <div class="content">
                             <div class="item">
                                 <blockquote class="quote">
-                                    <p><i class="fa fa-quote-left"></i>Cristian is a very passionate guy, who's always trying to make the code look beautiful and every little thing work perfectly.</p>
+                                    <p><i class="fa fa-quote-left"></i><span class="i18n" data-i18n="testimonials-1"></span></p>
                                 </blockquote>
                                 <p class="source"><span class="name">Victor Wjugow</span><br /><span class="title">Magick</span></p>
                             </div><!--//item-->
 
-                            <p><a class="more-link" href="http://ar.linkedin.com/pub/cristian-miranda/22/b5/4a8/"><i class="fa fa-external-link"></i> More on Linkedin</a></p>
+                            <p><a class="more-link" href="http://ar.linkedin.com/pub/cristian-miranda/22/b5/4a8/"><i class="fa fa-external-link"></i> <span class="i18n" data-i18n="more-on-linkedin"></span></a></p>
 
                         </div><!--//content-->
                     </div><!--//section-inner-->
@@ -220,14 +258,14 @@
 
                 <aside class="education aside section">
                     <div class="section-inner">
-                        <h2 class="heading">Education</h2>
+                        <h2 class="heading i18n" data-i18n="education"></h2>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title"><i class="fa fa-graduation-cap"></i> Computers Technician</h3>
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> <span class="i18n" data-i18n="education-1"></span></h3>
                                 <h4 class="university">ET 35 Ingeniero Eduardo E. Latzina <span class="year">(2003-2009)</span></h4>
                             </div><!--//item-->
                             <div class="item">
-                                <h3 class="title"><i class="fa fa-graduation-cap"></i> Computer Engineering</h3>
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> <span class="i18n" data-i18n="education-2"></span></h3>
                                 <h4 class="university">Universidad Nacional de La Matanza <span class="year">(2009-2016)</span></h4>
                             </div><!--//item-->
                             <div class="item">
@@ -240,16 +278,16 @@
 
                 <aside class="languages aside section">
                     <div class="section-inner">
-                        <h2 class="heading">Languages</h2>
+                        <h2 class="heading i18n" data-i18n="languages"></h2>
                         <div class="content">
                             <ul class="list-unstyled">
                                 <li class="item">
-                                    <span class="title"><strong>Spanish:</strong></span>
-                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
+                                    <span class="title"><strong><span class="i18n" data-i18n="languages-1"></span>:</strong></span>
+                                    <span class="level"><span class="i18n" data-i18n="languages-2"></span> <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
                                 </li><!--//item-->
                                 <li class="item">
-                                    <span class="title"><strong>English:</strong></span>
-                                    <span class="level">Fluent Oral & Writing <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i> </span>
+                                    <span class="title"><strong><span class="i18n" data-i18n="languages-3"></span>:</strong></span>
+                                    <span class="level"><span class="i18n" data-i18n="languages-4"></span> <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i> </span>
                                 </li><!--//item-->
                             </ul>
                         </div><!--//content-->
@@ -258,11 +296,11 @@
 
                 <aside class="blog aside section">
                     <div class="section-inner">
-                        <h2 class="heading">Open Source Contributions</h2>
+                        <h2 class="heading i18n" data-i18n="open-source"></h2>
                         <div class="content">
                             <div class="item">
                                 <h3 class="title"><i class="fa"></i> GWT Raphael</h3>
-                                <p>I've added the Drag and Drop feature to the library. RaphaelGWT is a library that allows you to use Raphaël in your GWT application. Raphaël is a lightweight JavaScript library for cross-platform vector graphics that uses SVG in browsers that support it, and Microsoft VML on Internet Explorer.</p>
+                                <p class="i18n" data-i18n="open-source-1"></p>
                                 <p><a class="more-link" href="http://code.google.com/p/raphaelgwt/source/detail?r=38" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
                             </div><!--//item-->
                         </div><!--//content-->
@@ -271,7 +309,7 @@
 
                 <aside class="list music aside section">
                     <div class="section-inner">
-                        <h2 class="heading">Favourite coding music</h2>
+                        <h2 class="heading i18n" data-i18n="coding-music"></h2>
                         <div class="content">
                             <ul class="list-unstyled">
                                 <li><i class="fa fa-headphones"></i> <a href="https://play.spotify.com/artist/0hEurMDQu99nJRq8pTxO14">John Mayer</a></li>
@@ -285,10 +323,10 @@
 
                 <aside class="list conferences aside section">
                     <div class="section-inner">
-                        <h2 class="heading">Awards</h2>
+                        <h2 class="heading i18n" data-i18n="awards"></h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li><i class="fa fa-trophy"></i> <a href="http://www.copaturing.com.ar" target="_blank">1st Place in the "Copa Turing 2009" competition</a></li>
+                                <li><i class="fa fa-trophy"></i> <a href="http://www.copaturing.com.ar" target="_blank" class="i18n" data-i18n="awards-1"></a></li>
                             </ul>
                         </div><!--//content-->
                     </div><!--//section-inner-->
@@ -328,20 +366,10 @@
     <!-- ******FOOTER****** -->
     <footer class="footer">
         <div class="container text-center">
-                <small class="copyright">More info<i class="fa fa-at"></i> @ <a href="http://ar.linkedin.com/pub/cristian-miranda/22/b5/4a8/" target="_blank">LinkedIn</a> </small>
+                <small class="copyright"><span class="i18n" data-i18n="more-info"></span><i class="fa fa-at"></i> @ <a href="http://ar.linkedin.com/pub/cristian-miranda/22/b5/4a8/" target="_blank">LinkedIn</a> </small>
                 <!--<small class="copyright">More info <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">3rd Wave Media</a> for developers</small>-->
         </div><!--//container-->
     </footer><!--//footer-->
 
-    <!-- Javascript -->
-    <script type="text/javascript" src="assets/plugins/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
-    <!-- github activity plugin -->
-    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-    <script type="text/javascript" src="http://caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.js"></script>
-    <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>
