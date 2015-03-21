@@ -14,29 +14,26 @@ function localize() {
 
 	setTimeout(function(){
 		$('.i18n').i18n();
-	}, 500);
+	}, 1000);
 }
 
 // Enable debug
 $.i18n.debug = true;
 
-$( document ).ready( function( $ ) {
-	'use strict';
-
-	localize();
+$(window).on('load', function() {
 
 	var selected = 'en';
 	$( "#lang" ).click(function() {
 		if (selected == 'en') {
 			$.i18n( {
-			    locale: 'es'
+					locale: 'es'
 			} );
 			selected = 'es';
 			$( "#lang" ).removeClass( "language-es" );
 			$( "#lang" ).addClass( "language-en" );
 		} else {
 			$.i18n( {
-			    locale: 'en'
+					locale: 'en'
 			} );
 			selected = 'en';
 			$( "#lang" ).removeClass( "language-en" );
@@ -44,4 +41,15 @@ $( document ).ready( function( $ ) {
 		}
 		$('.i18n').i18n();
 	});
+
+	localize();
+
+});
+
+/*
+$( document ).ready( function( $ ) {
+	'use strict';
+
+
 } );
+*/
