@@ -61,6 +61,7 @@
         "open-source-1" : "I've added the Drag and Drop feature to the library. RaphaelGWT is a library that allows you to use Raphaël in your GWT application. Raphaël is a lightweight JavaScript library for cross-platform vector graphics that uses SVG in browsers that support it, and Microsoft VML on Internet Explorer.",
 
         "coding-music" : "Favourite music",
+        "tv-movies" : "Movies & TV Shows I like",
         "reading" : "What I like to read",
 
         "awards" : "Awards",

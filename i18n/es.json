@@ -61,6 +61,7 @@
         "open-source-1" : "Agregué la funcionalidad de Drag and Drop a la librería. RaphaelGWT permite usar Raphaël en aplicaciones GWT. Raphaël es una librería JavaScript liviana para crear gráficos vectorizados que utilizan SVG en navegadores que lo soportan, y Microsoft VML en Internet Explorer.",
 
         "coding-music" : "Que música escucho",
+        "tv-movies" : "Películas y Series que me gustan",
         "reading" : "Que me gusta leer",
 
         "awards" : "Premios",
