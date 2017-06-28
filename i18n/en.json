@@ -8,14 +8,21 @@
         "about-me-3" : "I've been working with Spring framework, Google App Engine and now with GWT and JBoss Errai.",
 
         "latest-projects" : "Latest Projects",
-        "latest-projects-1" : "A comprehensive security and management platform built for businesses, educational institutions, & organizations that use Google Apps.",
-        "latest-projects-2" : "FlashPanel is used by IT professionals in over 40,000 organizations around the world to manage their Google Apps domains. FlashPanel empowers IT users to audit and uncover potential risks, take action to bring company assets and users back into compliance, and set automation rules to enforce organizational policies on an ongoing basis.",
-        "latest-projects-3" : "Magick - Beautifully Simple Trade Automation",
+        "latest-projects-1" : "FlashPanel - Security and management platform built for businesses, educational institutions, & organizations that use Google Apps.",
+        "latest-projects-2" : "Used by IT professionals in over 40,000 organizations around the world to manage their Google Apps domains. FlashPanel empowers IT users to audit and uncover potential risks, take action to bring company assets and users back into compliance, and set automation rules to enforce organizational policies on an ongoing basis.",
+        "latest-projects-3" : "Tradeworks - Beautifully Simple Trade Automation",
         "latest-projects-4" : "Simple Trade Automation. Users can design and deploy their FX trading strategies in minutes using intuitive rules generators without the need of programming them.",
+        "latest-projects-5" : "escribeHOST - Powerful, certified complete EHR solution",
+        "latest-projects-6" : "Track patient information, collaborate on encounter documentation, reconcile medications, eprescribe, and more using an intuitive interface.",
 
         "view-more" : "VIEW MORE",
 
         "work-experience" : "Work Experience",
+        "work-experience-e"  : "GWT Developer",
+        "work-experience-12" : "Developed escribeHOST, a powerful, web-based, certified complete EHR solution. Track patient information, collaborate on encounter documentation, reconcile medications, eprescribe, and more using an intuitive interface.",
+        "work-experience-11" : "Remote work, having a daily meeting with the New York, US team.",
+        "work-experience-10" : "Technologies: Tomcat 7, GWT 2.8, Spring, Oracle DB",
+
         "work-experience-d" : "GWT/Errai Developer",
         "work-experience-9" : "Building an application that allows you to easily construct and implement multiple trading strategies. This software monitors complex market data and automatically executes your strategy while continually taking your personal risk management settings into consideration.",
         "work-experience-8" : "Remote work, having a daily meeting with the Copenhagen team.",
@@ -36,7 +43,7 @@
 
         "my-github" : "My GitHub",
 
-        "odesk-profile" : "oDesk profile",
+        "odesk-profile" : "UpWork profile",
 
         "skills" : "Skills",
         "skills-1" : "My primary skillset.",

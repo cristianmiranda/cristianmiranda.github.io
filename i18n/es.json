@@ -8,14 +8,21 @@
         "about-me-3" : "Ultimamente me encuentro trabajando con Spring, Google App Engine, GWT y JBoss Errai.",
 
         "latest-projects" : "Proyectos recientes",
-        "latest-projects-1" : "Intuitiva aplicacion que actúa como plataforma de seguridad y administracion de negocios, instituciones educativas y cualquier otra organización que utilice Google Apps",
-        "latest-projects-2" : "Flashpanel es utilizada por profesionales del rubro IT en más de 40.000 organizaciones alrededor del mundo para administrar sus dominios. Flashpanel ayuda a los usuarios a auditar y detectar riesgos potenciales y establecer reglas de automatización para hacer cumplir las políticas de organización de manera permanente.",
-        "latest-projects-3" : "Magick - Trading automatizado, simple y elegante",
+        "latest-projects-1" : "Flashpanel - Intuitiva aplicacion que actúa como plataforma de seguridad y administracion de negocios, instituciones educativas y cualquier otra organización que utilice Google Apps",
+        "latest-projects-2" : "Utilizada por profesionales del rubro IT en más de 40.000 organizaciones alrededor del mundo para administrar sus dominios. Flashpanel ayuda a los usuarios a auditar y detectar riesgos potenciales y establecer reglas de automatización para hacer cumplir las políticas de organización de manera permanente.",
+        "latest-projects-3" : "Tradeworks - Trading automatizado, simple y elegante",
         "latest-projects-4" : "Trading automatizado. Los usuarios pueden diseñar y desplegar sus estrategias de FX trading en minutos utilizando generadores de reglas intuitivas sin necesidad de saber como programarlas.",
+        "latest-projects-5" : "escribeHOST - Potente, certificada y completa solución EHR",
+        "latest-projects-6" : "Provee seguimiento de la información del paciente, colaboración con estudios y documentos, medicaciones, recetas electrónicas y más utilizando una interfáz intuitiva para ello.",
 
         "view-more" : "VER MÁS",
 
         "work-experience" : "Experiencia de trabajo",
+        "work-experience-e"  : "Desarrollador GWT",
+        "work-experience-12" : "escribeHOST, una potente aplicación web que brinda soluciones EHR. Provee seguimiento de la información del paciente, colaboración con estudios y documentos, medicaciones, recetas electrónicas y más utilizando una interfáz intuitiva para ello.",
+        "work-experience-11" : "Trabajo remoto con reuniones diarias con el equipo ubicado en New York, Estados Unidos.",
+        "work-experience-10" : "Tecnologías: Tomcat 7, GWT 2.8, Spring, Oracle DB",
+
         "work-experience-d" : "Desarrollador GWT/Errai",
         "work-experience-9" : "Desarrollando aplicaciones que permiten construir e implementar facilmente estrategias de trading en minutos. Este software monitorea complejos datos de mercado y automáticamente ejecuta la estrategia, siempre teniendo en cuenta las opciones personales de riesgo predefinidas.",
         "work-experience-8" : "Trabajo remoto con reuniones diarias con el equipo ubicado en Copenhague, Dinamarca.",
@@ -36,7 +43,7 @@
 
         "my-github" : "Mi actividad en GitHub",
 
-        "odesk-profile" : "Perfil en oDesk",
+        "odesk-profile" : "Perfil en UpWork",
 
         "skills" : "Habilidades",
         "skills-1" : "Mis principales habilidades.",
